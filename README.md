@@ -10,6 +10,13 @@ GullyKart Vision is an AI-powered, full-stack web application built for Meesho�
 - Delivering outputs optimized for WhatsApp, Instagram, and Meesho uploads
 
 ---
+## 🌐 Deployed Prototype
+
+You can view the deployed version of GullyKart Vision at:  
+🔗 **[https://meeshohack.netlify.app](https://meeshohack.netlify.app)**
+
+---
+
 
 ## 🌐 Live Local URLs
 
@@ -17,7 +24,39 @@ GullyKart Vision is an AI-powered, full-stack web application built for Meesho�
 - **AI Backend (FastAPI + Python)**: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 ---
+## 📁 Updated Project Structure
 
+```
+gullykart/
+├── src/                          # Frontend source code
+│   ├── components/              # React components
+│   │   ├── ui/                 # shadcn/ui components
+│   │   └── ...                 # Custom components
+│   ├── pages/                  # Page components
+│   ├── services/               # API services
+│   │   └── emailService.ts     # Email/OTP service
+│   ├── hooks/                  # Custom React hooks
+│   └── lib/                    # Utility functions
+├── backend/                     # Backend services
+│   ├── server.js               # Email service (Node.js)
+│   ├── main.py                 # AI service entry point (FastAPI)
+│   ├── auth/                   # Authentication modules
+│   ├── requirements.txt        # Python dependencies
+│   ├── package.json           # Node.js dependencies
+│   ├── venv/                  # Python virtual environment
+│   └── .env                   # Backend environment variables
+├── ai_engine/                  # Additional AI modules
+│   ├── insights_engine.py     # AI trend insights
+│   ├── magic.py               # AI utilities
+│   ├── trend_researcher.py    # Trend analysis
+│   └── requirements.txt       # Python dependencies
+├── public/                     # Static assets
+├── .env                       # Frontend environment variables
+├── package.json              # Frontend dependencies
+└── README.md                 # This file
+```
+
+---
 ## 🧰 Tech Stack
 
 ### Frontend:
@@ -80,25 +119,7 @@ To test:
 
 ---
 
-## 📂 Folder Structure
 
-```
-gullykart/
-├── frontend/                 # React app
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── lib/
-│   │   └── ...
-│   └── public/
-├── backend/                  # FastAPI backend
-│   ├── main.py               # Entry point
-│   ├── auth/                 # Auth routes
-│   ├── ai_engine/            # AI utilities & scrapers
-│   ├── trend_researcher.py
-│   └── requirements.txt
-└── README.md
-```
 
 ---
 
@@ -160,46 +181,7 @@ Made with ❤️ by Team GullyKart for Meesho Hack 2025.
 
 ---
 
-## 🌐 Deployed Prototype
 
-You can view the deployed version of GullyKart Vision at:  
-🔗 **[https://meeshohack.netlify.app](https://meeshohack.netlify.app)**
-
----
-
-## 📁 Updated Project Structure
-
-```
-gullykart/
-├── src/                          # Frontend source code
-│   ├── components/              # React components
-│   │   ├── ui/                 # shadcn/ui components
-│   │   └── ...                 # Custom components
-│   ├── pages/                  # Page components
-│   ├── services/               # API services
-│   │   └── emailService.ts     # Email/OTP service
-│   ├── hooks/                  # Custom React hooks
-│   └── lib/                    # Utility functions
-├── backend/                     # Backend services
-│   ├── server.js               # Email service (Node.js)
-│   ├── main.py                 # AI service entry point (FastAPI)
-│   ├── auth/                   # Authentication modules
-│   ├── requirements.txt        # Python dependencies
-│   ├── package.json           # Node.js dependencies
-│   ├── venv/                  # Python virtual environment
-│   └── .env                   # Backend environment variables
-├── ai_engine/                  # Additional AI modules
-│   ├── insights_engine.py     # AI trend insights
-│   ├── magic.py               # AI utilities
-│   ├── trend_researcher.py    # Trend analysis
-│   └── requirements.txt       # Python dependencies
-├── public/                     # Static assets
-├── .env                       # Frontend environment variables
-├── package.json              # Frontend dependencies
-└── README.md                 # This file
-```
-
----
 
 ## ⚠️ Disclaimer
 
