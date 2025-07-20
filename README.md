@@ -1,3 +1,4 @@
+
 # GullyKart Vision
 
 ## 🌟 Overview
@@ -154,4 +155,61 @@ FRONTEND_URL=http://localhost:8080
 ## 🙌 Contributors
 
 Made with ❤️ by Team GullyKart for Meesho Hack 2025.
+
+
+
+---
+
+## 🌐 Deployed Prototype
+
+You can view the deployed version of GullyKart Vision at:  
+🔗 **[https://meeshohack.netlify.app](https://meeshohack.netlify.app)**
+
+---
+
+## 📁 Updated Project Structure
+
+```
+gullykart/
+├── src/                          # Frontend source code
+│   ├── components/              # React components
+│   │   ├── ui/                 # shadcn/ui components
+│   │   └── ...                 # Custom components
+│   ├── pages/                  # Page components
+│   ├── services/               # API services
+│   │   └── emailService.ts     # Email/OTP service
+│   ├── hooks/                  # Custom React hooks
+│   └── lib/                    # Utility functions
+├── backend/                     # Backend services
+│   ├── server.js               # Email service (Node.js)
+│   ├── main.py                 # AI service entry point (FastAPI)
+│   ├── auth/                   # Authentication modules
+│   ├── requirements.txt        # Python dependencies
+│   ├── package.json           # Node.js dependencies
+│   ├── venv/                  # Python virtual environment
+│   └── .env                   # Backend environment variables
+├── ai_engine/                  # Additional AI modules
+│   ├── insights_engine.py     # AI trend insights
+│   ├── magic.py               # AI utilities
+│   ├── trend_researcher.py    # Trend analysis
+│   └── requirements.txt       # Python dependencies
+├── public/                     # Static assets
+├── .env                       # Frontend environment variables
+├── package.json              # Frontend dependencies
+└── README.md                 # This file
+```
+
+---
+
+## ⚠️ Disclaimer
+
+Due to restrictions on the deployed backend (e.g., Render blocking external image generation and saving), the campaign generator may not function fully online.
+
+📺 To view a working demo of the image generation and campaign creation features, please refer to the recorded video:
+🔗 **[https://go.screenpal.com/watch/cTiY1znIVd9](https://go.screenpal.com/watch/cTiY1znIVd9)**
+
+🧑‍💻 Alternatively, to experience the full functionality:
+- Clone this repository
+- Set up the environment locally
+- Follow the development steps in this README to run both frontend and backend
 
